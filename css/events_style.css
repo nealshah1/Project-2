@@ -11,7 +11,7 @@
      border-radius: 5px;
      padding: 20px;
      margin: 5% 25% 5% 25%;
-     display: inline-block;
+     display: center;
 }
  body {
      background-image: url("../images/peru.jpg");
@@ -34,15 +34,11 @@
    display: inline-block;
 }
 
- p {
-     font-size: 1rem;
-     color: red;
-}
  label {
      display:block;
      font-size: 25px;
      font-weight: bold;
-     color: black;
+     color: white;
 }
 
  input[type=text], select {
@@ -63,6 +59,11 @@
      border-radius: 4px;
      cursor: pointer;
 }
+
+  * {
+    box-sizing: border-box;
+}
+
  @media screen and (min-width: 320px) and (max-width:580px) {
     /* For mobile phones: */
      .stack{
@@ -107,30 +108,22 @@
     background-color: #ddd;
     color: black;
 }
+.image {
+  float: right;
+}
 
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
 
-    /* Large desktop */
-     @media (min-width: 1200px){
-         body {
-             background: #161616 !important;
-        }
-    }
-    /* Portrait tablet to landscape and desktop */
-     @media (min-width: 768px) and (max-width: 979px) {
-         body {
-             background: #161616 !important;
-        }
-    }
-    /* Landscape phone to portrait tablet */
-     @media (max-width: 767px){
-         body {
-             background: #161616 !important;
-        }
-    }
-    /* Landscape phones and down */
-     @media (max-width: 480px){
-         body {
-             background: #161616 !important;
-        }
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
     }
 }
