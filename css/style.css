@@ -68,11 +68,16 @@ body {
 }
 */
 
-.card_index {
+.card_index_a {
   background-image:url("../images/bc_image.jpg");
   padding:800px 0px 800px 0px;
   background-repeat: no-repeat;
   background-size: auto;
+}
+
+.card_index{
+padding: 20px;
+margin-top: 20px;
 }
 
 /* Clear floats after the columns */
