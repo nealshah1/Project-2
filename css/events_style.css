@@ -112,6 +112,18 @@ body {
     color: black;
 }
 
+.card_index{
+padding: 20px;
+margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Footer */
 .footer {
     padding: 20px;
