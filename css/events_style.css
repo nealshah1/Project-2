@@ -34,7 +34,7 @@
    display: inline-block;
 }
 
- a, p {
+ p {
      font-size: 1rem;
      color: red;
 }
@@ -42,7 +42,7 @@
      display:block;
      font-size: 25px;
      font-weight: bold;
-     color:red;
+     color: black;
 }
 
  input[type=text], select {
@@ -56,7 +56,7 @@
 }
  input[type=submit] {
      width: 100%;
-     color: #4c91af;
+     color: softblue;
      padding: 14px 20px;
      margin: 8px 0;
      border: 5px solid black;
@@ -76,10 +76,10 @@
          width: 100%;
     }
      h3{
-         font-size: 6vw;
+         font-size: 8vw;
     }
      h2{
-         font-size: 7vw;
+         font-size: 9vw;
          margin-top: 6%;
     }
      body{
