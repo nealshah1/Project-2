@@ -8,17 +8,7 @@ body {
     background: #f1f1f1;
 }
 
-form {
-     border-radius: 5px;
-     padding: 20px;
-     margin: 5% 25% 5% 25%;
-     display: inline-block;
-}
 
-.body_signup {
-     background-image: url("../image/space.jpg");
-     background-size: cover;
-}
 
 /* Header/Blog Title */
 .header {
@@ -64,21 +54,6 @@ form {
     color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-/*.leftcolumn {
-    float: left;
-    width: 75%;
-}
-
-/* Right column
-.rightcolumn {
-    float: left;
-    width: 25%;
-    background-color: #f1f1f1;
-    padding-left: 20px;
-}
-*/
 
 .card_index_a {
   background-image:url("../images/bc_image.jpg");
