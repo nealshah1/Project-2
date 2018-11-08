@@ -11,7 +11,7 @@
      border-radius: 10px;
      padding: 20px;
      margin: 5% 25% 5% 25%;
-     display: center;
+     display: inline-block;
 }
  footer{
      text-align: center;
