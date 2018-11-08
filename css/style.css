@@ -81,6 +81,23 @@ body {
   background-size: auto;
 }
 
+button {
+	  background-color: #4c91af;
+	  border-radius: 8px;
+	  border: none;
+	  color: white;
+	  padding: 3%;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  margin-left: 30%;
+	  font-size: 20px;
+	  cursor: pointer;
+	  margin-top: 6%;
+	  width: 50%;
+	}
+
+
 .card_index{
 padding: 20px;
 margin-top: 20px;
