@@ -36,13 +36,13 @@
 
  a, p {
      font-size: 1rem;
-     color: white;
+     color: red;
 }
  label {
      display:block;
      font-size: 25px;
      font-weight: bold;
-     color:white;
+     color:red;
 }
 
  input[type=text], select {
@@ -56,7 +56,7 @@
 }
  input[type=submit] {
      width: 100%;
-     color: white;
+     color: #4c91af;
      padding: 14px 20px;
      margin: 8px 0;
      border: 5px solid black;
