@@ -104,7 +104,7 @@ body {
 
 
 .card_index_a {
-  background-image:url("../images/world.jpg");
+  background-color: black;
   padding:800px 0px 800px 0px;
   background-repeat: no-repeat;
   background-size: auto;
