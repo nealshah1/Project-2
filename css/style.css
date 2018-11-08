@@ -8,6 +8,13 @@ body {
     background: #f1f1f1;
 }
 
+form {
+     border-radius: 5px;
+     padding: 20px;
+     margin: 5% 25% 5% 25%;
+     display: inline-block;
+}
+
 .body_signup {
      background-image: url("../image/space.jpg");
      background-size: cover;
