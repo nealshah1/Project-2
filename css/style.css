@@ -74,6 +74,12 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
 }
+.card_index_c {
+  background-image:url("../images/peru.jpg");
+  padding:800px 0px 800px 0px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 
 .card_index{
 padding: 20px;
