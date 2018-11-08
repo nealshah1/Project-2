@@ -71,12 +71,12 @@
 .header h1 {
     font-size: 50px;
     clear: left;
-    text-align: left;
+    text-align: center;
 
 }
 
 .header h2 {
-    font-size: 20px;
+    font-size: 40px;
     clear: left;
     text-align: left;
     text-align: center;
@@ -106,7 +106,7 @@
     color: black;
 }
 
-.card_index{
+.card_index {
 padding: 20px;
 margin-top: 20px;
 }
