@@ -68,25 +68,11 @@ body {
 }
 */
 
-/* Fake image */
-.fakeimg {
-    background-image: url(index_bk.jpg);
-    width: 100%;
-    padding: 20px;
-
-    /* Full height */
-   height: 100%;
-
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-/* Add a card effect for articles */
 .card_index {
-    padding: 20px;
-    margin-top: 20px;
+  background-image:url("../images/bc_image.jpg");
+  padding:800px 0px 800px 0px;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 /* Clear floats after the columns */
