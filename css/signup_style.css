@@ -13,11 +13,6 @@
      margin: 5% 25% 5% 25%;
      display: inline-block;
 }
- body {
-   font-family: Arial;
-    padding: 5px;
-    background: #f1f1f1;
-}
  footer{
      text-align: center;
      margin-bottom: 10%;
@@ -49,35 +44,20 @@
      border-radius: 4px;
      cursor: pointer;
 }
- @media screen and (min-width: 320px) and (max-width:580px) {
-    /* For mobile phones: */
-     .stack{
-         padding: 5%;
-         margin: 2% 5% 2% 5%;
-    }
-     fieldset{
-         width: 100%;
-    }
-     input[type=text]{
-         width: 100%;
-    }
-     h3{
-         font-size: 4vw;
-    }
-     h2{
-         font-size: 5vw;
-         margin-top: 5%;
-    }
-     body{
-         background: #161616 !important;
-    }
+
   
-  /* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: white;
+  * {
+    box-sizing: border-box;
 }
-  
+
+body {
+    font-family: Arial;
+    padding: 5px;
+    background: #f1f1f1;
+}
+
+
+
 /* Header/Blog Title */
 .header {
     padding: 30px;
@@ -100,6 +80,12 @@
 
 }
 
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
 /* Style the topnav links */
 .topnav a {
     float: right;
@@ -117,14 +103,17 @@
 }
 
 
-   
 .card_index_a {
-  background-image:url("../images/world.jpg");
+  background-image:url("../images/bc_image.jpg");
   padding:800px 0px 800px 0px;
   background-repeat: no-repeat;
   background-size: auto;
 }
 
+.card_index{
+padding: 20px;
+margin-top: 20px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -133,6 +122,19 @@
     clear: both;
 }
 
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+.image {
+  float: right;
+}
+header{
+  background-image: url("../images/Background_abUs.jpg");
+}
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
