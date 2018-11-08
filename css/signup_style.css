@@ -14,7 +14,7 @@
      display: inline-block;
 }
  body {
-     background-image: url("../image/space.jpg");
+     background-image: url("../images/world.jpg");
      background-size: cover;
 }
  footer{
@@ -30,7 +30,7 @@
    font-variant: normal; 
    font-weight: 400; 
    line-height: 41px; 
-   color: white; 
+   color: red; 
    display: inline-block;
 }
 
