@@ -11,7 +11,8 @@
      border-radius: 5px;
      padding: 20px;
      margin: 5% 25% 5% 25%;
-     display: center;
+     display: inline-block;
+
 }
  body {
      background-image: url("../images/peru.jpg");
