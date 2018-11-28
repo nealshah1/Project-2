@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 5px;
+    background: #f1f1f1;
+}
+
+
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.header h1 {
+    font-size: 50px;
+    clear: left;
+    text-align: left;
+
+}
+
+.header h2 {
+    font-size: 20px;
+    clear: left;
+    text-align: left;
+    text-align: center;
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.card_index_a {
+  background-image:url("../images/bc_image.jpg");
+  padding:800px 0px 800px 0px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.card_index{
+padding: 20px;
+margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+.image {
+  float: right;
+}
+header{
+  background-image: url("../images/Background_abUs.jpg");
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+ @media screen and (min-width: 320px) and (max-width:580px) {
+    /* For mobile phones: */
+     .stack{
+         padding: 5%;
+         margin: 2% 5% 2% 5%;
+    }
+     fieldset{
+         width: 100%;
+    }
+     input[type=text]{
+         width: 100%;
+    }
+     h3{
+         font-size: 4vw;
+    }
+     h2{
+         font-size: 5vw;
+         margin-top: 5%;
+    }
+     body{
+         background: #161616 !important;
+    }
+     
+    /* Large desktop */
+     @media (min-width: 1200px){
+         body {
+             background: #161616 !important;
+        }
+    }
+    /* Portrait tablet to landscape and desktop */
+     @media (min-width: 768px) and (max-width: 979px) {
+         body {
+             background: #161616 !important;
+        }
+    }
+    /* Landscape phone to portrait tablet */
+     @media (max-width: 767px){
+         body {
+             background: #161616 !important;
+        }
+    }
+    /* Landscape phones and down */
+     @media (max-width: 480px){
+         body {
+             background: #161616 !important;
+        }
+    }
+}
