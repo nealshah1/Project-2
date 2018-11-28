@@ -103,3 +103,52 @@ header{
         width: 100%;
     }
 }
+
+ @media screen and (min-width: 320px) and (max-width:580px) {
+    /* For mobile phones: */
+     .stack{
+         padding: 5%;
+         margin: 2% 5% 2% 5%;
+    }
+     fieldset{
+         width: 100%;
+    }
+     input[type=text]{
+         width: 100%;
+    }
+     h3{
+         font-size: 4vw;
+    }
+     h2{
+         font-size: 5vw;
+         margin-top: 5%;
+    }
+     body{
+         background: #161616 !important;
+    }
+     
+    /* Large desktop */
+     @media (min-width: 1200px){
+         body {
+             background: #161616 !important;
+        }
+    }
+    /* Portrait tablet to landscape and desktop */
+     @media (min-width: 768px) and (max-width: 979px) {
+         body {
+             background: #161616 !important;
+        }
+    }
+    /* Landscape phone to portrait tablet */
+     @media (max-width: 767px){
+         body {
+             background: #161616 !important;
+        }
+    }
+    /* Landscape phones and down */
+     @media (max-width: 480px){
+         body {
+             background: #161616 !important;
+        }
+    }
+}
